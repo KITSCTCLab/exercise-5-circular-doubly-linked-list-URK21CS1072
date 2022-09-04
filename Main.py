@@ -63,5 +63,4 @@ for i in range(len(operations)):
         result.append(obj.get_previous_next(data[i]))
     elif operations[i] == 'delete_at_index':
         result.append(obj.delete_at_index(data[i]))
-
 print(result)
